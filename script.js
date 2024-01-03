@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
         
         if (!task) {
             alert("Please fill out the task");
-            return
+            return;
         }
         const task_el = document.createElement("div");
         task_el.classList.add("task");
